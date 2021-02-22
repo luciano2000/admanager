@@ -1,10 +1,10 @@
 var Tgeral = [320, 50];
         var tela = window.innerWidth;        
-        if (tela >= 470 && tela < 740) { 
+        if (tela > 470) { 
                 Tgeral = [468, 60];
                 Tnoticias = [320, 50];
         }
-        else if (tela >= 740 && tela < 1080) {
+        else if (tela > 740) {
                 Tgeral = [728, 90];
                 Tnoticias = [468, 60];
 
